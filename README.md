@@ -21,12 +21,15 @@ Active and maintained. The public repository contains a sanitized version of the
 - Client showcase
 - Contact and quotation request system
 - Supabase-powered form submissions
-- Bengali/English content support
 - Vercel deployment and security headers
 
 ## Technologies
 
 `HTML` · `CSS` · `JavaScript` · `Supabase` · `Three.js` · `Git` · `GitHub` · `Vercel`
+
+## Deployment
+
+The website is deployed on **Vercel**, with **Supabase** handling form submissions and backend data. Production credentials and internal-only configuration are excluded from this public repository.
 
 ## Security
 
