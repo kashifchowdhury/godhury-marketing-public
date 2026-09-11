@@ -8,6 +8,10 @@ Official web platform for **Godhury Marketing Communication**, a Bangladesh-base
 
 This project was built as a modern responsive company website showcasing Godhury Marketing Communication's services, portfolio, experience, and client work.
 
+## Project Status
+
+Active and maintained. The public repository contains a sanitized version of the live Godhury Marketing Communication website and is used to showcase the project's structure, features, and technology stack.
+
 ## Features
 
 - Responsive multi-page website
