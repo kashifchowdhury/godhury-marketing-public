@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Godhury Marketing Communication Bangladesh</title>
+    <meta name="description" content="Frequently asked questions about Godhury Marketing Communication's printing, branding, outdoor advertising, and production services in Bangladesh.">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://godhury-marketing.vercel.app/faq.html">
+    <meta property="og:title" content="FAQ | Godhury Marketing Communication">
+    <meta property="og:description" content="Answers about timelines, quotations, artwork, printing, branding, and outdoor advertising services from Godhury Marketing Communication.">
+    <meta property="og:image" content="https://godhury-marketing.vercel.app/assets/images/hero-bg.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Architecture -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css?v=20260831-shell4">
+    <link rel="stylesheet" href="css/layout.css">
+    
+    <style>
+        .page-header {
+            position: relative;
+            padding: 150px 0 88px;
+            overflow: hidden;
+            background:
+                linear-gradient(135deg, rgba(10, 13, 20, 0.96), rgba(18, 22, 32, 0.86)),
+                url("assets/images/service-print.jpg") center / cover;
+            color: var(--clr-white);
+        }
+
+        .page-header::after {
+            content: "";
+            position: absolute;
+            inset: auto 0 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(0, 173, 239, 0.7), transparent);
+        }
+
+        .faq-hero {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-lg);
+            align-items: end;
+        }
+
+        .faq-hero-copy h1 {
+            color: var(--clr-white);
+            max-width: 760px;
+            margin-bottom: var(--space-sm);
+        }
+
+        .faq-hero-copy p {
+            color: rgba(255, 255, 255, 0.76);
+            max-width: 620px;
+            font-size: 1.12rem;
+        }
+
+        .faq-hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: var(--space-md);
+        }
+
+        .faq-chip {
+            display: inline-flex;
+            align-items: center;
+            min-height: 38px;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            border-radius: var(--radius-full);
+            color: rgba(255, 255, 255, 0.86);
+            background: rgba(255, 255, 255, 0.08);
+            font-size: 0.82rem;
+            font-weight: 700;
+        }
+
+        .faq-hero-card {
+            padding: var(--space-md);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: var(--radius-lg);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+        }
+
+        .faq-hero-card p {
+            margin-bottom: 0.35rem;
+            color: rgba(255, 255, 255, 0.68);
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .faq-hero-card strong {
+            display: block;
+            color: var(--clr-white);
+            font-family: var(--ff-heading);
+            font-size: 2.4rem;
+            line-height: 1;
+        }
+
+        .faq-section {
+            background: linear-gradient(180deg, #ffffff 0%, var(--clr-bg-light) 100%);
+            padding: var(--space-xl) 0;
+        }
+
+        .faq-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-lg);
+            align-items: start;
+        }
+
+        .faq-intro {
+            display: grid;
+            gap: var(--space-md);
+        }
+
+        .faq-intro-panel {
+            background: var(--clr-white);
+            border: 1px solid rgba(10, 25, 47, 0.08);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            box-shadow: 0 18px 45px rgba(10, 25, 47, 0.08);
+        }
+
+        .faq-intro-panel p {
+            color: var(--clr-text-light);
+        }
+
+        .faq-contact-list {
+            display: grid;
+            gap: 0.75rem;
+            margin-top: var(--space-md);
+        }
+
+        .faq-contact-link {
+            display: flex;
+            justify-content: space-between;
+            gap: var(--space-sm);
+            padding: 0.9rem 0;
+            border-top: 1px solid rgba(10, 25, 47, 0.08);
+            color: var(--clr-primary-dark);
+            font-weight: 700;
+        }
+
+        .faq-contact-link span {
+            color: var(--clr-accent);
+        }
+
+        .faq-process {
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .faq-process-item {
+            padding: 1rem 1.1rem;
+            border-left: 3px solid var(--clr-accent);
+            background: rgba(255, 255, 255, 0.72);
+        }
+
+        .faq-process-item strong {
+            display: block;
+            color: var(--clr-primary-dark);
+        }
+
+        .faq-process-item span {
+            color: var(--clr-text-light);
+            font-size: 0.92rem;
+        }
+
+        .faq-list {
+            display: grid;
+            gap: 0.85rem;
+        }
+
+        .faq-item {
+            background: var(--clr-white);
+            border: 1px solid rgba(10, 25, 47, 0.08);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 10px 28px rgba(10, 25, 47, 0.06);
+            overflow: hidden;
+            transition: border-color var(--transition-normal), box-shadow var(--transition-normal), transform var(--transition-normal);
+        }
+
+        .faq-item:hover,
+        .faq-item[open] {
+            border-color: rgba(0, 173, 239, 0.32);
+            box-shadow: 0 18px 42px rgba(10, 25, 47, 0.1);
+        }
+
+        .faq-item:hover {
+            transform: translateY(-1px);
+        }
+
+        .faq-item summary {
+            cursor: pointer;
+            list-style: none;
+            padding: 1.35rem 1.5rem;
+            color: var(--clr-primary-dark);
+            font-weight: 800;
+            display: grid;
+            grid-template-columns: auto minmax(0, 1fr) auto;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .faq-item summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-number {
+            width: 34px;
+            height: 34px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: var(--radius-full);
+            background: rgba(0, 173, 239, 0.1);
+            color: var(--clr-accent);
+            font-size: 0.82rem;
+            font-weight: 800;
+        }
+
+        .faq-question-text {
+            min-width: 0;
+        }
+
+        .faq-toggle {
+            width: 32px;
+            height: 32px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: var(--radius-full);
+            border: 1px solid rgba(10, 25, 47, 0.12);
+            color: var(--clr-accent);
+            font-size: 1.25rem;
+            line-height: 1;
+        }
+
+        .faq-toggle::before {
+            content: "+";
+        }
+
+        .faq-item[open] .faq-toggle::before {
+            content: "-";
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem 1.35rem 4.85rem;
+            color: var(--clr-text-light);
+        }
+
+        .faq-answer p {
+            margin-bottom: 0;
+            color: var(--clr-text-light);
+        }
+
+        .faq-cta {
+            margin-top: var(--space-lg);
+            padding: var(--space-lg);
+            background:
+                linear-gradient(135deg, rgba(18, 22, 32, 0.96), rgba(10, 13, 20, 0.92)),
+                url("assets/images/port-outdoor-1.jpg") center / cover;
+            color: var(--clr-white);
+            border-radius: var(--radius-lg);
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-md);
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .faq-cta h2 {
+            color: var(--clr-white);
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-cta p {
+            color: rgba(255, 255, 255, 0.78);
+            max-width: 620px;
+            margin-bottom: 0;
+        }
+
+        @media (min-width: 900px) {
+            .faq-hero {
+                grid-template-columns: minmax(0, 1fr) 260px;
+            }
+
+            .faq-layout {
+                grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.4fr);
+            }
+
+            .faq-intro {
+                position: sticky;
+                top: 130px;
+            }
+
+            .faq-cta {
+                grid-template-columns: minmax(0, 1fr) auto;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .page-header {
+                padding: 128px 0 64px;
+            }
+
+            .faq-item summary {
+                grid-template-columns: minmax(0, 1fr) auto;
+            }
+
+            .faq-number {
+                display: none;
+            }
+
+            .faq-answer {
+                padding-left: 1.5rem;
+            }
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSJTP30T0S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+
+      gtag("config", "G-SSJTP30T0S");
+    </script>
+
+    <!-- External Libraries (Lenis, Anime.js, Three.js) -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" sizes="48x48">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container flex justify-between items-center">
+            <a href="index.html" class="logo">
+                <img src="assets/images/godhury-logo-transparent.png" alt="Godhury Marketing Communication" class="logo-img">
+            </a>
+            
+            <nav>
+                <button type="button" class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+                <div class="overlay" id="overlay"></div>
+                <ul class="nav-links" id="navLinks">
+                    <li class="nav-menu-controls"><button type="button" id="closeMenuBtn" class="close-menu-btn" aria-label="Close Menu">&times;</button></li>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                    <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="faq.html" class="active" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="contact.html" class="btn" data-i18n="nav_quote">Get a Quote</a></li>
+                    <li class="lang-switch-wrapper">
+                        <div class="lang-segmented-switch">
+                            <button class="lang-btn active" data-lang="en">EN</button>
+                            <button class="lang-btn" data-lang="bn">বাংলা</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container faq-hero">
+            <div class="faq-hero-copy">
+            <div class="back-btn-wrapper" style="text-align: left;">
+                <a href="javascript:history.back()" class="back-btn" data-i18n="back_btn">← Back</a>
+            </div>
+            <h1 data-i18n="faq_page_title">Frequently Asked Questions</h1>
+                <p data-i18n="faq_page_sub">Clear answers about our printing, outdoor advertising, branding, and production workflow.</p>
+                <div class="faq-hero-actions" aria-label="FAQ topics">
+                    <span class="faq-chip">Printing</span>
+                    <span class="faq-chip">Outdoor Media</span>
+                    <span class="faq-chip">Branding</span>
+                    <span class="faq-chip">Production</span>
+                </div>
+            </div>
+            <div class="faq-hero-card">
+                <p>Typical reply time</p>
+                <strong>24h</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Content -->
+    <section class="faq-section">
+        <div class="container faq-layout">
+            <aside class="faq-intro">
+                <div class="faq-intro-panel">
+                    <div class="badge">FAQ</div>
+                    <h2>Project Essentials</h2>
+                    <p>Here are the questions clients usually ask before starting a branding, printing, signage, event, or outdoor advertising project with us.</p>
+                    <div class="faq-contact-list">
+                        <a href="tel:+8801715053503" class="faq-contact-link">Call the team <span>+880 1715 053503</span></a>
+                        <a href="mailto:sales@godhurymarketing.com" class="faq-contact-link">Email sales <span>Send brief</span></a>
+                    </div>
+                </div>
+                <div class="faq-process">
+                    <div class="faq-process-item">
+                        <strong>1. Brief</strong>
+                        <span>Share size, material, quantity, location, and deadline.</span>
+                    </div>
+                    <div class="faq-process-item">
+                        <strong>2. Estimate</strong>
+                        <span>We confirm scope, production method, and quotation.</span>
+                    </div>
+                    <div class="faq-process-item">
+                        <strong>3. Production</strong>
+                        <span>Artwork, print, fabrication, and delivery are coordinated.</span>
+                    </div>
+                </div>
+            </aside>
+
+            <div>
+                <div class="faq-list">
+                    <details class="faq-item" open>
+                        <summary><span class="faq-number">01</span><span class="faq-question-text">What services does Godhury Marketing provide?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+                        <div class="faq-answer">
+                            <p>We provide design and branding, printing solutions, outdoor advertising, signage, vehicle branding, event production, and custom exhibition stall support for businesses in Bangladesh.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary><span class="faq-number">02</span><span class="faq-question-text">How do I request a quotation?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+                        <div class="faq-answer">
+                            <p>You can use the contact form, email us at sales@godhurymarketing.com, or call/WhatsApp +880 1715 053503. Sharing size, quantity, material, location, and deadline helps us prepare a faster estimate.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary><span class="faq-number">03</span><span class="faq-question-text">Can you help with design if I only have an idea?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+                        <div class="faq-answer">
+                            <p>Yes. Our team can help turn your brief into brand visuals, print-ready artwork, signage concepts, campaign materials, or event production layouts.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary><span class="faq-number">04</span><span class="faq-question-text">What artwork files do you need for printing?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+                        <div class="faq-answer">
+                            <p>Print-ready PDF, AI, EPS, or high-resolution PSD files are preferred. If you are unsure about format, send what you have and our production team will review it before final output.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary><span class="faq-number">05</span><span class="faq-question-text">Do you manage billboard and outdoor advertising placement?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+                        <div class="faq-answer">
+                            <p>Yes. We support outdoor campaign planning, billboard production, transit branding, signage, installation coordination, and visibility-focused placement discussions based on campaign needs.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary><span class="faq-number">06</span><span class="faq-question-text">How long does a typical project take?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+                        <div class="faq-answer">
+                            <p>Timelines depend on scope, material, approval speed, and installation needs. Small print jobs may move quickly, while outdoor, event, or custom fabrication projects need more planning and production time.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary><span class="faq-number">07</span><span class="faq-question-text">Do you work outside Dhaka?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+                        <div class="faq-answer">
+                            <p>Yes. Godhury delivers projects across Bangladesh. Our head office and production facility are in Dhaka, while our project delivery and client service are nationwide.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="faq-cta">
+                    <div>
+                        <h2 data-i18n="faq_cta_title">Still have a specific project question?</h2>
+                        <p data-i18n="faq_cta_desc">Share your requirements and our team will help you choose the right production approach.</p>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary" data-i18n="faq_cta_btn">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer bg-light" style="padding: var(--space-lg) 0 var(--space-sm);">
+        <div class="container grid grid-4" style="margin-bottom: var(--space-lg); gap: var(--space-xl)">
+            <div style="grid-column: span 2;">
+                <a href="index.html" class="logo" style="display: block; margin-bottom: var(--space-sm);">
+                    <img src="assets/images/godhury-logo-footer.png" alt="Godhury Marketing Communication" class="logo-img">
+                </a>
+                <p style="color: var(--clr-text); max-width: 300px;">Godhury Marketing Communication is your trusted partner for premium offline marketing, branding, and production excellence in Bangladesh.</p>
+            </div>
+            
+            <div>
+                <h4 style="color: var(--clr-primary-dark); margin-bottom: var(--space-md);">Quick Links</h4>
+                <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--clr-text);">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 style="color: var(--clr-primary-dark); margin-bottom: var(--space-md);" data-i18n="footer_contact">Contact Us</h4>
+                <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--clr-text);">
+                    <li><strong>Godhury Marketing</strong></li>
+                    <li data-i18n="footer_address">Flat: 5-B, House: 16/A/3, Ring Road<br>Mohammadpur, Dhaka-1207, Bangladesh</li>
+                    <li><a href="mailto:sales@godhurymarketing.com">sales@godhurymarketing.com</a></li>
+                    <li><a href="tel:+8801715053503">+880 1715 053503</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: var(--space-sm); display: flex; justify-content: space-between; color: var(--clr-text); font-size: 0.9rem;">
+            <p>&copy; 2026 Godhury Marketing Communication. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js?v=20260831-shell2"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/i18n.js"></script>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/8801715053503" target="_blank" class="whatsapp-float" aria-label="Chat with us on WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.05 1.5c-7.98 0-14.45 6.47-14.45 14.45 0 2.54.66 4.93 1.83 7.02L2 30.5l7.73-1.42c2.04 1.08 4.35 1.68 6.77 1.68 7.98 0 14.45-6.47 14.45-14.45S24.03 1.5 16.05 1.5zM24.2 21.9c-.35 1.01-1.92 1.83-2.65 1.93-.72.09-1.57.25-4.8-1.08-3.9-1.61-6.43-5.59-6.62-5.85-.2-.25-1.58-2.11-1.58-4.02 0-1.91 1-2.86 1.35-3.26.35-.4.76-.5 1.01-.5.25 0 .5.01.72.01.23.01.53-.09.83.63.31.75 1.06 2.59 1.16 2.8.09.2.15.43.03.68-.13.25-.19.4-.38.63-.19.23-.4.5-.57.68-.19.19-.39.39-.16.78.23.4 1.02 1.68 2.18 2.71 1.5 1.33 2.75 1.74 3.15 1.93.4.19.63.16.86-.1.23-.25.99-1.16 1.25-1.56.26-.4.53-.33.89-.2.36.13 2.3.1.2.5 1.26.7 1.48 1.02.83 1.15.13.43.34 1.41.34 2.42z" fill="#fff"/>
+        </svg>
+    </a>
+</body>
+</html>

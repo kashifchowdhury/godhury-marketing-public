@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Godhury Marketing Communication Bangladesh</title>
+    <meta name="description" content="View our portfolio of high-impact OOH advertising, vehicle branding, and structural exhibition stalls across Dhaka and Bangladesh.">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://godhury-marketing.vercel.app/portfolio.html">
+    <meta property="og:title" content="Marketing & Branding Portfolio | Godhury Marketing Dhaka">
+    <meta property="og:description" content="View our curated portfolio of successful corporate branding, premium printing, and outdoor advertising projects delivered for leading businesses in Bangladesh.">
+    <meta property="og:image" content="https://godhury-marketing.vercel.app/assets/images/hero-bg.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Architecture -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css?v=20260831-shell4">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/portfolio.css?v=20260831-editorial1">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSJTP30T0S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+
+      gtag("config", "G-SSJTP30T0S");
+    </script>
+
+    <!-- External Libraries (Lenis, Anime.js, Three.js) -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" sizes="48x48">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body class="portfolio-page">
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container flex justify-between items-center">
+            <a href="index.html" class="logo">
+                <img src="assets/images/godhury-logo-transparent.png" alt="Godhury Marketing Communication" class="logo-img">
+            </a>
+            
+            <nav>
+                <button type="button" class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+                <div class="overlay" id="overlay"></div>
+                <ul class="nav-links" id="navLinks">
+                    <li class="nav-menu-controls"><button type="button" id="closeMenuBtn" class="close-menu-btn" aria-label="Close Menu">&times;</button></li>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                    <li><a href="portfolio.html" class="active" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="contact.html" class="btn" data-i18n="nav_quote">Get a Quote</a></li>
+                    <li class="lang-switch-wrapper">
+                        <div class="lang-segmented-switch">
+                            <button class="lang-btn active" data-lang="en">EN</button>
+                            <button class="lang-btn" data-lang="bn">বাংলা</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="back-btn-wrapper" style="text-align: left;">
+                <a href="javascript:history.back()" class="back-btn" data-i18n="back_btn">← Back</a>
+            </div>
+            <div class="portfolio-hero-layout">
+                <div class="portfolio-hero-main">
+                    <h1 data-i18n="portfolio_page_title">Our Flagship Marketing & Production Projects</h1>
+                </div>
+                <div class="portfolio-hero-context">
+                    <span class="portfolio-hero-meta">Portfolio / 60 projects</span>
+                    <span class="portfolio-hero-rule" aria-hidden="true"></span>
+                    <p data-i18n="portfolio_page_sub">A showcase of production excellence across physical media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="bg-light portfolio-gallery-section">
+        <div class="container">
+            <section class="portfolio-featured" aria-labelledby="featuredWorkTitle">
+                <div class="portfolio-section-heading">
+                    <div>
+                        <span class="portfolio-eyebrow">Featured Work</span>
+                        <h2 id="featuredWorkTitle">Work that earns attention.</h2>
+                    </div>
+                    <p>A focused selection spanning brand environments, outdoor visibility, and live activation.</p>
+                </div>
+                <div class="featured-work-grid" id="featuredProjects"></div>
+            </section>
+
+            <div class="portfolio-archive-heading">
+                <div>
+                    <span class="portfolio-eyebrow">Project Archive</span>
+                    <h2>Explore the full body of work.</h2>
+                </div>
+                <p id="portfolioResultCount" aria-live="polite">60 projects</p>
+            </div>
+
+            <div class="filters" id="filters" role="toolbar" aria-label="Filter portfolio projects">
+                <button class="filter-btn active" data-filter="all" aria-pressed="true">All Projects</button>
+                <button class="filter-btn" data-filter="branding" aria-pressed="false">Creative Design</button>
+                <button class="filter-btn" data-filter="print" aria-pressed="false">Print &amp; Production</button>
+                <button class="filter-btn" data-filter="outdoor" aria-pressed="false">Outdoor &amp; Signage</button>
+                <button class="filter-btn" data-filter="events" aria-pressed="false">Events &amp; Activation</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid" role="list">
+                <!-- Items populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Template -->
+    <dialog id="projectModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal" aria-label="Close project details">&times;</button>
+            <div class="modal-media">
+                <img alt="" class="modal-img" id="modalImg">
+            </div>
+            <div class="modal-copy">
+                <div class="badge" id="modalCategory">Category</div>
+                <h2 id="modalTitle">Project Title</h2>
+                <p class="modal-client" id="modalClient">Client Name</p>
+                <p id="modalDesc">Detailed description of the project goes here.</p>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- Footer -->
+    <footer class="site-footer bg-light" style="padding: var(--space-lg) 0 var(--space-sm);">
+        <div class="container grid grid-4" style="margin-bottom: var(--space-lg); gap: var(--space-xl)">
+            <div style="grid-column: span 2;">
+                <a href="index.html" class="logo" style="display: block; margin-bottom: var(--space-sm);">
+                    <img src="assets/images/godhury-logo-footer.png" alt="Godhury Marketing Communication" class="logo-img">
+                </a>
+                <p style="color: var(--clr-text); max-width: 300px;">Godhury Marketing Communication is your trusted partner for premium offline marketing, branding, and production excellence in Bangladesh.</p>
+            </div>
+            
+            <div>
+                <h4 style="color: var(--clr-primary-dark); margin-bottom: var(--space-md);">Quick Links</h4>
+                <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--clr-text);">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 style="color: var(--clr-primary-dark); margin-bottom: var(--space-md);" data-i18n="footer_contact">Contact Us</h4>
+                <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--clr-text);">
+                    <li><strong>Godhury Marketing</strong></li>
+                    <li data-i18n="footer_address">Flat: 5-B, House: 16/A/3, Ring Road<br>Mohammadpur, Dhaka-1207, Bangladesh</li>
+                    <li><a href="mailto:sales@godhurymarketing.com">sales@godhurymarketing.com</a></li>
+                    <li><a href="tel:+8801715053503">+880 1715 053503</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: var(--space-sm); display: flex; justify-content: space-between; color: var(--clr-text); font-size: 0.9rem;">
+            <p>&copy; 2026 Godhury Marketing Communication. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js?v=20260831-shell2"></script>
+    <script src="js/portfolio.js?v=20260830-portfolio1"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/i18n.js"></script>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/8801715053503" target="_blank" class="whatsapp-float" aria-label="Chat with us on WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.05 1.5c-7.98 0-14.45 6.47-14.45 14.45 0 2.54.66 4.93 1.83 7.02L2 30.5l7.73-1.42c2.04 1.08 4.35 1.68 6.77 1.68 7.98 0 14.45-6.47 14.45-14.45S24.03 1.5 16.05 1.5zM24.2 21.9c-.35 1.01-1.92 1.83-2.65 1.93-.72.09-1.57.25-4.8-1.08-3.9-1.61-6.43-5.59-6.62-5.85-.2-.25-1.58-2.11-1.58-4.02 0-1.91 1-2.86 1.35-3.26.35-.4.76-.5 1.01-.5.25 0 .5.01.72.01.23.01.53-.09.83.63.31.75 1.06 2.59 1.16 2.8.09.2.15.43.03.68-.13.25-.19.4-.38.63-.19.23-.4.5-.57.68-.19.19-.39.39-.16.78.23.4 1.02 1.68 2.18 2.71 1.5 1.33 2.75 1.74 3.15 1.93.4.19.63.16.86-.1.23-.25.99-1.16 1.25-1.56.26-.4.53-.33.89-.2.36.13 2.3.1.2.5 1.26.7 1.48 1.02.83 1.15.13.43.34 1.41.34 2.42z" fill="#fff"/>
+        </svg>
+    </a>
+</body>
+</html>

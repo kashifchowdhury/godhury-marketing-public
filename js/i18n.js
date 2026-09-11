@@ -1,0 +1,537 @@
+/**
+ * Godhury Marketing Communication - Bilingual (English & Bangla) i18n Translation Engine
+ */
+
+const translations = {
+    en: {
+        // Navigation
+        nav_home: "Home",
+        nav_about: "About Us",
+        nav_services: "Services",
+        nav_portfolio: "Portfolio",
+        nav_faq: "FAQ",
+        nav_contact: "Contact Us",
+        nav_quote: "Get a Quote",
+        back_btn: "← Back",
+
+        // Hero Section
+        hero_badge: "Integrated Advertising & Technology",
+        hero_title: "Advertising, Production,<br>Digital & Technology.",
+        hero_desc: "Godhury Marketing Communication brings creative, physical, digital, and technical delivery into one professional workflow for businesses in Bangladesh and beyond.",
+        hero_btn_cap: "Our Capabilities",
+        hero_btn_work: "View Our Work",
+
+        // Section Headers
+        trusted_clients: "Trusted By Industry Leaders",
+        stat_years: "Years of Experience",
+        stat_projects: "Projects Completed",
+        stat_clients: "Clients",
+        stat_services: "Services",
+
+        // Services Preview
+        cap_badge: "Our Capabilities",
+        cap_title: "Connected Services. One Accountable Partner.",
+        cap_desc: "Five focused service groups bring creative, physical, digital, and technical delivery into one professional workflow.",
+        cap_view_all: "View All Services",
+
+        service_branding_title: "Design & Branding",
+        service_branding_desc: "Corporate identity, logo design, and premium art direction.",
+        service_print_title: "Printing Solutions",
+        service_print_desc: "High-quality brochures, packaging, and corporate materials.",
+        service_outdoor_title: "Outdoor Advertising",
+        service_outdoor_desc: "Strategic billboards, transit advertising, and impactful signage.",
+        service_events_title: "Event Management",
+        service_events_desc: "Corporate events, brand activations, and custom stall designs.",
+        explore_service: "Explore Service →",
+
+        // Scroll Showcase
+        impact_eyebrow: "From Idea to Impact",
+        impact_title: "Built for the Real World.",
+        impact_desc: "From creative direction and production to installation and activation, Godhury turns brand ideas into physical experiences people can see, visit and remember.",
+        impact_cta: "View Our Work <span aria-hidden=\"true\">&rarr;</span>",
+
+        // Market Reach
+        market_badge: "Who We Serve",
+        market_title: "Serving businesses across diverse industries.",
+        market_desc: "Godhury supports businesses with project scopes shaped around their communication, production, digital, and technical requirements.",
+
+        // Featured Work
+        featured_title: "Featured Work",
+        featured_desc: "A glimpse into our production excellence and the physical impact we create.",
+        full_gallery: "Full Gallery",
+
+        // Footer
+        footer_desc: "Godhury Marketing Communication provides integrated advertising, production, digital, and technology services in Bangladesh and beyond.",
+        footer_quick: "Quick Links",
+        footer_contact: "Contact Us",
+        footer_address: "Flat No. 5-B, House No. 16/A/3, Ring Road, Mohammadpur, Dhaka-1207, Bangladesh",
+        footer_rights: "© 2026 Godhury Marketing Communication. All rights reserved.",
+
+        // About Page
+        about_hero_eyebrow: "Godhury Marketing Communication",
+        about_page_title: "Integrated expertise. Practical execution.",
+        about_page_sub: "For 18+ years, Godhury has helped businesses plan and deliver advertising, production, digital, and technology projects in Bangladesh and beyond.",
+        about_overview_badge: "Company Overview",
+        about_overview_title: "One company across physical, digital, and technical delivery.",
+        about_overview_p1: "Godhury Marketing Communication is an integrated full-service company covering advertising, creative design, print and production, signage, outdoor and physical branding, events and activation, digital marketing, web development, infrastructure, integrations, maintenance, and ongoing technical support.",
+        about_overview_p2: "Its work supports businesses across diverse industries, coordinating specialist capabilities around the practical requirements of each project.",
+        about_fact_years: "Years of Experience",
+        about_fact_projects: "Projects Completed",
+        about_fact_clients: "Clients",
+        about_fact_services: "Services",
+        about_purpose_badge: "Purpose & Direction",
+        about_purpose_title: "Growth built on connected capability.",
+        about_purpose_intro: "Godhury brings advertising, production, digital transformation, and technology together to create practical, long-term value.",
+        about_mission_title: "Our Mission",
+        about_mission_desc: "To help businesses grow and communicate more effectively through integrated advertising, creative production, branding, digital marketing, and technology-driven solutions, from physical campaigns and printing to websites, digital systems, and ongoing technical support.",
+        about_vision_title: "Our Vision",
+        about_vision_desc: "To build Godhury Marketing Communication into a leading integrated business and brand growth company, combining advertising, creative production, digital transformation, technology, and future business ventures to create long-term value in Bangladesh and beyond.",
+        about_values_badge: "Core Values",
+        about_values_title: "Principles for consistent work.",
+        about_values_intro: "Five straightforward values guide how Godhury approaches client relationships, delivery, and improvement.",
+        about_value_quality: "Quality",
+        about_value_quality_desc: "We work to agreed requirements and review outputs carefully before delivery.",
+        about_value_reliability: "Reliability",
+        about_value_reliability_desc: "We communicate clearly and take responsibility for the work entrusted to us.",
+        about_value_creativity: "Creativity",
+        about_value_creativity_desc: "We develop ideas that are relevant to the brief and practical to execute.",
+        about_value_commitment: "Client Commitment",
+        about_value_commitment_desc: "We stay focused on each client's objectives, constraints, and approved scope.",
+        about_value_improvement: "Continuous Improvement",
+        about_value_improvement_desc: "We keep strengthening our processes, capabilities, and technical knowledge.",
+        about_capability_badge: "End-to-End Capability",
+        about_capability_title: "Support across the full project journey.",
+        about_capability_intro: "The mix of services changes by brief, but the delivery path remains coordinated from early planning through ongoing support.",
+        about_step_planning: "Planning",
+        about_step_planning_desc: "Define the scope, priorities, and delivery requirements.",
+        about_step_creative: "Creative Development",
+        about_step_creative_desc: "Develop the approved direction for practical execution.",
+        about_step_production: "Production",
+        about_step_production_desc: "Prepare physical and digital outputs to the agreed scope.",
+        about_step_activation: "Installation / Activation",
+        about_step_activation_desc: "Carry approved work into its live environment.",
+        about_step_digital: "Digital Execution",
+        about_step_digital_desc: "Launch campaigns, websites, systems, and integrations.",
+        about_step_support: "Ongoing Technical Support",
+        about_step_support_desc: "Maintain, update, and support ongoing technical needs.",
+        about_presence_badge: "Operational Presence",
+        about_presence_title: "Headquartered in Dhaka, delivering projects nationwide across Bangladesh.",
+        about_presence_desc: "Godhury is headquartered on Ring Road, Dhaka, with an active production facility in Dhaka Uddan. This operational base supports physical production alongside the company's digital and technical delivery capabilities, serving clients across Bangladesh and beyond.",
+        about_head_office: "Head Office",
+        about_head_office_desc: "Ring Road, Mohammadpur, Dhaka",
+        about_production_facility: "Production Facility",
+        about_production_facility_desc: "Dhaka Uddan, Mohammadpur, Dhaka",
+        about_strengths_badge: "Why Godhury",
+        about_strengths_title: "Experience, breadth, and accountable execution.",
+        about_strengths_intro: "Godhury combines established operating experience with connected capabilities across physical, digital, and technical work.",
+        about_strength_1: "Years of operating experience",
+        about_strength_2: "Completed projects",
+        about_strength_3: "Clients",
+        about_strength_4: "Service capabilities",
+        about_strength_5: "Integrated advertising, production, digital, and technology",
+        about_strength_6: "End-to-end project execution",
+        about_strength_7: "Active production capability in Dhaka",
+        about_leadership_badge: "Leadership",
+        about_leadership_title: "Leadership across business and technology.",
+        about_leadership_intro: "Leadership combines 18+ years of operating experience with Godhury's growing digital and technology capabilities.",
+        leader_golam_title: "Founder & Director",
+        leader_golam_desc: "Founder and Director, leading Godhury's business and operations.",
+        leader_kashif_title: "Head of Digital Transformation & Technology",
+        leader_kashif_desc: "Leads Godhury's digital transformation and technology direction.",
+
+        // Services Page
+        services_page_title: "Our Services",
+        services_page_sub: "Twenty specialist services, organized into five clear capability groups.",
+        services_hero_eyebrow: "Connected capabilities",
+        services_hero_groups: "Capability groups",
+        services_hero_meta: "Services / 20 capabilities",
+        services_catalogue_badge: "20 Approved Services",
+        services_catalogue_title: "Built to scale with your requirements.",
+        services_catalogue_intro: "Select a group to review its complete service scope. Every category can be expanded independently on desktop or mobile.",
+        services_cta_label: "Ready to discuss a requirement?",
+        services_cta_title: "Bring us the brief. We will map the right capability.",
+        services_cta_button: "Request a Quote",
+        services_group_1_meta: "Group 01 · 3 services",
+        services_group_1_count: "3 services",
+        services_group_1_title: "Creative & Print",
+        services_group_1_summary: "Creative development and production support for clear, consistent physical brand communication.",
+        services_group_1_service_1_title: "Creative Design Services",
+        services_group_1_service_1_description: "Creative design support for professional brand, campaign, and communication requirements.",
+        services_group_1_service_2_title: "Digital Printing Services",
+        services_group_1_service_2_description: "Digital print production for approved marketing and corporate communication materials.",
+        services_group_1_service_3_title: "Wall Branding",
+        services_group_1_service_3_description: "Branded wall applications planned and produced for business and customer-facing spaces.",
+        services_group_2_meta: "Group 02 · 6 services",
+        services_group_2_count: "6 services",
+        services_group_2_title: "Outdoor, Signage & Physical Branding",
+        services_group_2_summary: "End-to-end physical visibility solutions for public spaces, commercial environments, and outdoor media.",
+        services_group_2_service_1_title: "Signboard Design, Manufacturing & Installation",
+        services_group_2_service_1_description: "Complete signboard delivery covering design, manufacturing, and on-site installation.",
+        services_group_2_service_2_title: "Bus Stop Passenger Shade Services",
+        services_group_2_service_2_description: "Passenger shade services for bus stop environments, delivered to the approved project scope.",
+        services_group_2_service_3_title: "Billboard Installation & Advertising",
+        services_group_2_service_3_description: "Billboard installation and advertising execution for prominent outdoor brand visibility.",
+        services_group_2_service_4_title: "Road & Road Median Beautification",
+        services_group_2_service_4_description: "Planned beautification work for roads and road medians in line with project requirements.",
+        services_group_2_service_5_title: "LED Signage Services",
+        services_group_2_service_5_description: "LED signage solutions for clear, durable, and visible brand communication.",
+        services_group_2_service_6_title: "Showroom & ATM Decoration",
+        services_group_2_service_6_description: "Coordinated decoration and brand application for showroom and ATM environments.",
+        services_group_3_meta: "Group 03 · 2 services",
+        services_group_3_count: "2 services",
+        services_group_3_title: "Digital Marketing & Web",
+        services_group_3_summary: "Digital communication and web delivery designed to support a credible, connected brand presence.",
+        services_group_3_service_1_title: "Online Marketing",
+        services_group_3_service_1_description: "Online marketing support aligned with approved brand and campaign objectives.",
+        services_group_3_service_2_title: "Website Design & Development",
+        services_group_3_service_2_description: "Professional website design and development shaped around business and user requirements.",
+        services_group_4_meta: "Group 04 · 8 services",
+        services_group_4_count: "8 services",
+        services_group_4_title: "Web Infrastructure & Technical Management",
+        services_group_4_summary: "Ongoing technical services that keep web platforms connected, maintained, secure, and operational.",
+        services_group_4_service_1_title: "Database Management",
+        services_group_4_service_1_description: "Structured management of website databases to support reliable day-to-day operation.",
+        services_group_4_service_2_title: "Server, Hosting & Domain Management",
+        services_group_4_service_2_description: "Coordinated management of servers, hosting environments, and domain requirements.",
+        services_group_4_service_3_title: "Website Security & Performance Optimization",
+        services_group_4_service_3_description: "Technical measures focused on website security, stability, and performance.",
+        services_group_4_service_4_title: "Payment Gateway Integration & Maintenance",
+        services_group_4_service_4_description: "Payment gateway integration and ongoing maintenance within the website environment.",
+        services_group_4_service_5_title: "API Integration & Third-Party Services Management",
+        services_group_4_service_5_description: "Integration and management of approved APIs and third-party website services.",
+        services_group_4_service_6_title: "Admin & Customer Panel Management",
+        services_group_4_service_6_description: "Technical management of website admin and customer-facing panel environments.",
+        services_group_4_service_7_title: "Website Backup, Updates & Regular Maintenance",
+        services_group_4_service_7_description: "Routine website backups, updates, and maintenance to support continuity.",
+        services_group_4_service_8_title: "Website Technical Support & Management",
+        services_group_4_service_8_description: "Ongoing technical support and management for active website operations.",
+        services_group_5_meta: "Group 05 · 1 service",
+        services_group_5_count: "1 service",
+        services_group_5_title: "Activation & Events",
+        services_group_5_summary: "Coordinated activation and event delivery that brings brands into direct contact with audiences.",
+        services_group_5_service_1_title: "Activation & Event Management",
+        services_group_5_service_1_description: "Planning and management support for approved brand activation and event requirements.",
+
+        // FAQ Page
+        faq_page_title: "Frequently Asked Questions",
+        faq_page_sub: "Clear answers about our printing, outdoor advertising, branding, and production workflow.",
+        faq_cta_title: "Still have a specific project question?",
+        faq_cta_desc: "Share your requirements and our team will help you choose the right production approach.",
+        faq_cta_btn: "Request a Quote",
+
+        // Portfolio Page
+        portfolio_page_title: "Our Portfolio",
+        portfolio_page_sub: "A showcase of production excellence across physical media.",
+        filter_all: "All Projects",
+        filter_branding: "Branding",
+        filter_print: "Print",
+        filter_outdoor: "Outdoor",
+        filter_events: "Events",
+
+        // Contact Page
+        contact_page_title: "Contact Us",
+        contact_page_sub: "Contact our team for advertising, production, digital, or technical projects anywhere in Bangladesh.",
+        contact_office_title: "Corporate Head Office",
+        contact_office_address: "Flat: 5-B, House: 16/A/3, Ring Road, Mohammadpur, Dhaka-1207, Bangladesh",
+        contact_factory_title: "Production Factory",
+        contact_factory_address: "Dhaka Uddan, Mohammadpur, Dhaka-1207, Bangladesh",
+        contact_email_title: "Email Us",
+        contact_call_title: "Call / WhatsApp",
+        form_title: "Request a Quote",
+        form_name: "Full Name",
+        form_email: "Email Address",
+        form_service: "Service Required",
+        form_select: "Select a service...",
+        form_details: "Project Details",
+        form_placeholder: "Tell us about your requirements...",
+        form_submit: "Send Request"
+    },
+    bn: {
+        // Navigation
+        nav_home: "হোম",
+        nav_about: "আমাদের সম্পর্কে",
+        nav_services: "সেবাসমূহ",
+        nav_portfolio: "পোর্টফোলিও",
+        nav_faq: "প্রশ্নোত্তর",
+        nav_contact: "যোগাযোগ করুন",
+        nav_quote: "কোটেশন চান",
+        back_btn: "← ফিরে যান",
+
+        // Hero Section
+        hero_badge: "সমন্বিত বিজ্ঞাপন ও প্রযুক্তি",
+        hero_title: "বিজ্ঞাপন, প্রোডাকশন,<br>ডিজিটাল ও প্রযুক্তি।",
+        hero_desc: "গোধূলি মার্কেটিং কমিউনিকেশন বাংলাদেশ ও এর বাইরের ব্যবসাগুলোর জন্য সৃজনশীল, ফিজিক্যাল, ডিজিটাল ও টেকনিক্যাল সেবাকে একটি পেশাদার কর্মপ্রবাহে সমন্বিত করে।",
+        hero_btn_cap: "আমাদের সেবাসমূহ",
+        hero_btn_work: "আমাদের কাজ দেখুন",
+
+        // Section Headers
+        trusted_clients: "শীর্ষস্থানীয় ব্র্যান্ডসমূহের বিশ্বস্ত সঙ্গী",
+        stat_years: "বছরের অভিজ্ঞতা",
+        stat_projects: "সম্পন্ন প্রজেক্ট",
+        stat_clients: "ক্লায়েন্ট",
+        stat_services: "সেবা",
+
+        // Services Preview
+        cap_badge: "আমাদের সক্ষমতা",
+        cap_title: "সমন্বিত সেবা। একটি দায়বদ্ধ অংশীদার।",
+        cap_desc: "পাঁচটি বিশেষায়িত সেবা বিভাগে সৃজনশীল, ফিজিক্যাল, ডিজিটাল ও টেকনিক্যাল কাজের সমন্বিত বাস্তবায়ন।",
+        cap_view_all: "সকল সেবা দেখুন",
+
+        service_branding_title: "ডিজাইন ও ব্র্যান্ডিং",
+        service_branding_desc: "কর্পোরেট পরিচয়, লোগো ডিজাইন এবং প্রিমিয়াম আর্ট ডিরেকশন।",
+        service_print_title: "প্রিন্টিং সলিউশন",
+        service_print_desc: "উচ্চমানের ব্রোশার, প্যাকেজিং এবং কর্পোরেট প্রিন্ট সামগ্রী।",
+        service_outdoor_title: "আউটডোর বিজ্ঞাপন",
+        service_outdoor_desc: "কৌশলগত বিলবোর্ড, ট্রানজিট ব্র্যান্ডিং এবং দৃষ্টিনন্দন সাইনেজ।",
+        service_events_title: "ইভেন্ট ম্যানেজমেন্ট",
+        service_events_desc: "কর্পোরেট ইভেন্ট, ব্র্যান্ড অ্যাক্টিভেশন এবং কাস্টম স্টল নির্মাণ।",
+        explore_service: "বিস্তারিত দেখুন →",
+
+        // Scroll Showcase
+        impact_eyebrow: "ভাবনা থেকে বাস্তব প্রভাব",
+        impact_title: "বাস্তব জগতের জন্য নির্মিত।",
+        impact_desc: "সৃজনশীল নির্দেশনা ও প্রোডাকশন থেকে ইনস্টলেশন ও অ্যাক্টিভেশন পর্যন্ত, গোধূলি ব্র্যান্ডের ভাবনাকে এমন বাস্তব অভিজ্ঞতায় রূপ দেয় যা মানুষ দেখতে, ঘুরে দেখতে এবং মনে রাখতে পারে।",
+        impact_cta: "আমাদের কাজ দেখুন <span aria-hidden=\"true\">&rarr;</span>",
+
+        // Market Reach
+        market_badge: "আমরা যাদের সেবা দিই",
+        market_title: "বিভিন্ন শিল্পের ব্যবসায়িক প্রতিষ্ঠানের জন্য সেবা।",
+        market_desc: "গোধূলি ব্যবসাগুলোর যোগাযোগ, প্রোডাকশন, ডিজিটাল ও টেকনিক্যাল প্রয়োজন অনুযায়ী প্রকল্পের পরিধি নির্ধারণ করে কাজ করে।",
+
+        // Featured Work
+        featured_title: "আমাদের নির্বাচিত কাজ",
+        featured_desc: "আমাদের মেধা, মান এবং বাস্তবসম্মত প্রিন্টিং উৎকর্ষতার এক ঝলক।",
+        full_gallery: "সম্পূর্ণ গ্যালারি",
+
+        // Footer
+        footer_desc: "গোধূলি মার্কেটিং কমিউনিকেশন বাংলাদেশ ও এর বাইরে সমন্বিত বিজ্ঞাপন, প্রোডাকশন, ডিজিটাল ও প্রযুক্তি সেবা প্রদান করে।",
+        footer_quick: "দ্রুত লিঙ্ক",
+        footer_contact: "যোগাযোগ করুন",
+        footer_address: "ফ্ল্যাট নং ৫-বি, বাড়ি নং ১৬/এ/৩, রিং রোড, মোহাম্মদপুর, ঢাকা-১২০৭, বাংলাদেশ",
+        footer_rights: "© ২০২৬ গোধূলি মার্কেটিং কমিউনিকেশন। সর্বস্বত্ব সংরক্ষিত।",
+
+        // About Page
+        about_hero_eyebrow: "গোধূলি মার্কেটিং কমিউনিকেশন",
+        about_page_title: "সমন্বিত দক্ষতা। বাস্তবসম্মত বাস্তবায়ন।",
+        about_page_sub: "১৮ বছরেরও বেশি সময় ধরে গোধূলি বাংলাদেশ ও এর বাইরের ব্যবসাগুলোর বিজ্ঞাপন, প্রোডাকশন, ডিজিটাল ও প্রযুক্তি প্রকল্প পরিকল্পনা ও বাস্তবায়নে সহায়তা করছে।",
+        about_overview_badge: "কোম্পানি পরিচিতি",
+        about_overview_title: "ফিজিক্যাল, ডিজিটাল ও টেকনিক্যাল সেবায় একটি সমন্বিত প্রতিষ্ঠান।",
+        about_overview_p1: "গোধূলি মার্কেটিং কমিউনিকেশন একটি সমন্বিত পূর্ণাঙ্গ সেবাদাতা প্রতিষ্ঠান। এর সেবার মধ্যে রয়েছে বিজ্ঞাপন, ক্রিয়েটিভ ডিজাইন, প্রিন্ট ও প্রোডাকশন, সাইনেজ, আউটডোর ও ফিজিক্যাল ব্র্যান্ডিং, ইভেন্ট ও অ্যাক্টিভেশন, ডিজিটাল মার্কেটিং, ওয়েব ডেভেলপমেন্ট, ইনফ্রাস্ট্রাকচার, ইন্টিগ্রেশন, রক্ষণাবেক্ষণ এবং চলমান টেকনিক্যাল সাপোর্ট।",
+        about_overview_p2: "বিভিন্ন শিল্পের ব্যবসায়িক প্রতিষ্ঠানের প্রতিটি প্রকল্পের বাস্তব প্রয়োজন অনুযায়ী গোধূলি বিশেষায়িত সক্ষমতাগুলোকে সমন্বিত করে।",
+        about_fact_years: "বছরের অভিজ্ঞতা",
+        about_fact_projects: "সম্পন্ন প্রজেক্ট",
+        about_fact_clients: "ক্লায়েন্ট",
+        about_fact_services: "সেবা",
+        about_purpose_badge: "উদ্দেশ্য ও দিকনির্দেশনা",
+        about_purpose_title: "সমন্বিত সক্ষমতার ভিত্তিতে প্রবৃদ্ধি।",
+        about_purpose_intro: "গোধূলি বিজ্ঞাপন, প্রোডাকশন, ডিজিটাল ট্রান্সফরমেশন ও প্রযুক্তিকে একত্র করে বাস্তব ও দীর্ঘমেয়াদি মূল্য তৈরি করে।",
+        about_mission_title: "আমাদের লক্ষ্য",
+        about_mission_desc: "সমন্বিত বিজ্ঞাপন, ক্রিয়েটিভ প্রোডাকশন, ব্র্যান্ডিং, ডিজিটাল মার্কেটিং ও প্রযুক্তিনির্ভর সমাধানের মাধ্যমে ব্যবসাগুলোকে কার্যকরভাবে বৃদ্ধি ও যোগাযোগে সহায়তা করা—ফিজিক্যাল ক্যাম্পেইন ও প্রিন্টিং থেকে ওয়েবসাইট, ডিজিটাল সিস্টেম এবং চলমান টেকনিক্যাল সাপোর্ট পর্যন্ত।",
+        about_vision_title: "আমাদের ভিশন",
+        about_vision_desc: "গোধূলি মার্কেটিং কমিউনিকেশনকে একটি শীর্ষস্থানীয় সমন্বিত ব্যবসা ও ব্র্যান্ড প্রবৃদ্ধি প্রতিষ্ঠানে পরিণত করা—বিজ্ঞাপন, ক্রিয়েটিভ প্রোডাকশন, ডিজিটাল ট্রান্সফরমেশন, প্রযুক্তি ও ভবিষ্যৎ ব্যবসায়িক উদ্যোগের সমন্বয়ে বাংলাদেশ ও এর বাইরে দীর্ঘমেয়াদি মূল্য তৈরি করা।",
+        about_values_badge: "মূল মূল্যবোধ",
+        about_values_title: "ধারাবাহিক কাজের নীতিমালা।",
+        about_values_intro: "পাঁচটি সরল মূল্যবোধ গোধূলির ক্লায়েন্ট সম্পর্ক, কাজের বাস্তবায়ন ও উন্নয়নের পদ্ধতিকে নির্দেশ করে।",
+        about_value_quality: "গুণমান",
+        about_value_quality_desc: "আমরা সম্মত প্রয়োজনীয়তা অনুযায়ী কাজ করি এবং ডেলিভারির আগে আউটপুট সতর্কভাবে পর্যালোচনা করি।",
+        about_value_reliability: "নির্ভরযোগ্যতা",
+        about_value_reliability_desc: "আমরা স্পষ্টভাবে যোগাযোগ করি এবং অর্পিত কাজের দায়িত্ব গ্রহণ করি।",
+        about_value_creativity: "সৃজনশীলতা",
+        about_value_creativity_desc: "আমরা ব্রিফের সাথে প্রাসঙ্গিক এবং বাস্তবায়নযোগ্য ধারণা তৈরি করি।",
+        about_value_commitment: "ক্লায়েন্টের প্রতি অঙ্গীকার",
+        about_value_commitment_desc: "আমরা প্রতিটি ক্লায়েন্টের উদ্দেশ্য, সীমাবদ্ধতা ও অনুমোদিত কাজের পরিধিতে মনোযোগী থাকি।",
+        about_value_improvement: "ধারাবাহিক উন্নয়ন",
+        about_value_improvement_desc: "আমরা আমাদের প্রক্রিয়া, সক্ষমতা ও প্রযুক্তিগত জ্ঞান নিয়মিত উন্নত করি।",
+        about_capability_badge: "শুরু থেকে শেষ পর্যন্ত সক্ষমতা",
+        about_capability_title: "প্রকল্পের সম্পূর্ণ যাত্রায় সহায়তা।",
+        about_capability_intro: "ব্রিফ অনুযায়ী সেবার সমন্বয় বদলায়, তবে প্রাথমিক পরিকল্পনা থেকে চলমান সাপোর্ট পর্যন্ত কাজের ধারা সমন্বিত থাকে।",
+        about_step_planning: "পরিকল্পনা",
+        about_step_planning_desc: "কাজের পরিধি, অগ্রাধিকার ও ডেলিভারির প্রয়োজনীয়তা নির্ধারণ।",
+        about_step_creative: "ক্রিয়েটিভ ডেভেলপমেন্ট",
+        about_step_creative_desc: "বাস্তবায়নের জন্য অনুমোদিত সৃজনশীল দিকনির্দেশনা তৈরি।",
+        about_step_production: "প্রোডাকশন",
+        about_step_production_desc: "সম্মত কাজের পরিধি অনুযায়ী ফিজিক্যাল ও ডিজিটাল আউটপুট প্রস্তুত।",
+        about_step_activation: "ইনস্টলেশন / অ্যাক্টিভেশন",
+        about_step_activation_desc: "অনুমোদিত কাজ নির্ধারিত পরিবেশে বাস্তবায়ন।",
+        about_step_digital: "ডিজিটাল বাস্তবায়ন",
+        about_step_digital_desc: "ক্যাম্পেইন, ওয়েবসাইট, সিস্টেম ও ইন্টিগ্রেশন চালু করা।",
+        about_step_support: "চলমান টেকনিক্যাল সাপোর্ট",
+        about_step_support_desc: "চলমান টেকনিক্যাল প্রয়োজন রক্ষণাবেক্ষণ, আপডেট ও সহায়তা।",
+        about_presence_badge: "অপারেশনাল উপস্থিতি",
+        about_presence_title: "ঢাকায় প্রধান কার্যালয়, সারা বাংলাদেশে প্রকল্প বাস্তবায়ন।",
+        about_presence_desc: "রিং রোড, ঢাকায় গোধূলির প্রধান কার্যালয় এবং ঢাকা উদ্যানে একটি সক্রিয় প্রোডাকশন ফ্যাসিলিটি রয়েছে। এই অপারেশনাল ভিত্তি কোম্পানির ডিজিটাল ও টেকনিক্যাল সেবার পাশাপাশি ফিজিক্যাল প্রোডাকশনকে সহায়তা করে এবং বাংলাদেশ ও এর বাইরের ক্লায়েন্টদের সেবা প্রদান করে।",
+        about_head_office: "প্রধান কার্যালয়",
+        about_head_office_desc: "রিং রোড, মোহাম্মদপুর, ঢাকা",
+        about_production_facility: "প্রোডাকশন ফ্যাসিলিটি",
+        about_production_facility_desc: "ঢাকা উদ্যান, মোহাম্মদপুর, ঢাকা",
+        about_strengths_badge: "কেন গোধূলি",
+        about_strengths_title: "অভিজ্ঞতা, বিস্তৃত সক্ষমতা ও দায়বদ্ধ বাস্তবায়ন।",
+        about_strengths_intro: "গোধূলি ফিজিক্যাল, ডিজিটাল ও টেকনিক্যাল কাজে প্রতিষ্ঠিত অপারেটিং অভিজ্ঞতা এবং সমন্বিত সক্ষমতা একত্র করে।",
+        about_strength_1: "অপারেটিং অভিজ্ঞতা",
+        about_strength_2: "সম্পন্ন প্রজেক্ট",
+        about_strength_3: "ক্লায়েন্ট",
+        about_strength_4: "সেবা সক্ষমতা",
+        about_strength_5: "সমন্বিত বিজ্ঞাপন, প্রোডাকশন, ডিজিটাল ও প্রযুক্তি",
+        about_strength_6: "শুরু থেকে শেষ পর্যন্ত প্রকল্প বাস্তবায়ন",
+        about_strength_7: "ঢাকায় সক্রিয় প্রোডাকশন সক্ষমতা",
+        about_leadership_badge: "নেতৃত্ব",
+        about_leadership_title: "ব্যবসা ও প্রযুক্তিতে নেতৃত্ব।",
+        about_leadership_intro: "নেতৃত্ব গোধূলির ১৮ বছরেরও বেশি অপারেটিং অভিজ্ঞতার সঙ্গে ক্রমবর্ধমান ডিজিটাল ও প্রযুক্তিগত সক্ষমতাকে যুক্ত করে।",
+        leader_golam_title: "প্রতিষ্ঠাতা ও পরিচালক",
+        leader_golam_desc: "প্রতিষ্ঠাতা ও পরিচালক হিসেবে গোধূলির ব্যবসা ও কার্যক্রমে নেতৃত্ব দেন।",
+        leader_kashif_title: "হেড অব ডিজিটাল ট্রান্সফরমেশন অ্যান্ড টেকনোলজি",
+        leader_kashif_desc: "গোধূলির ডিজিটাল ট্রান্সফরমেশন ও প্রযুক্তিগত দিকনির্দেশনায় নেতৃত্ব দেন।",
+
+        // Services Page
+        services_page_title: "আমাদের সেবাসমূহ",
+        services_page_sub: "পাঁচটি সুস্পষ্ট বিভাগে সাজানো বিশটি বিশেষায়িত সেবা।",
+        services_hero_eyebrow: "সমন্বিত সক্ষমতা",
+        services_hero_groups: "সেবা বিভাগ",
+        services_hero_meta: "সেবাসমূহ / ২০টি সক্ষমতা",
+        services_catalogue_badge: "২০টি অনুমোদিত সেবা",
+        services_catalogue_title: "আপনার প্রয়োজন অনুযায়ী কাজের পরিধি বাড়াতে প্রস্তুত।",
+        services_catalogue_intro: "সম্পূর্ণ সেবার পরিধি দেখতে একটি বিভাগ নির্বাচন করুন। ডেস্কটপ বা মোবাইলে প্রতিটি বিভাগ আলাদাভাবে খোলা যাবে।",
+        services_cta_label: "আপনার প্রয়োজন নিয়ে আলোচনা করতে প্রস্তুত?",
+        services_cta_title: "কাজের সংক্ষিপ্ত বিবরণ দিন। আমরা উপযুক্ত সক্ষমতা নির্ধারণ করব।",
+        services_cta_button: "কোটেশন চান",
+        services_group_1_meta: "বিভাগ ০১ · ৩টি সেবা",
+        services_group_1_count: "৩টি সেবা",
+        services_group_1_title: "সৃজনশীল ও প্রিন্ট",
+        services_group_1_summary: "স্পষ্ট ও সামঞ্জস্যপূর্ণ ফিজিক্যাল ব্র্যান্ড যোগাযোগের জন্য সৃজনশীল উন্নয়ন ও প্রোডাকশন সহায়তা।",
+        services_group_1_service_1_title: "ক্রিয়েটিভ ডিজাইন সেবা",
+        services_group_1_service_1_description: "পেশাদার ব্র্যান্ড, ক্যাম্পেইন ও যোগাযোগের প্রয়োজন অনুযায়ী সৃজনশীল ডিজাইন সহায়তা।",
+        services_group_1_service_2_title: "ডিজিটাল প্রিন্টিং সেবা",
+        services_group_1_service_2_description: "অনুমোদিত মার্কেটিং ও কর্পোরেট যোগাযোগ উপকরণের জন্য ডিজিটাল প্রিন্ট প্রোডাকশন।",
+        services_group_1_service_3_title: "ওয়াল ব্র্যান্ডিং",
+        services_group_1_service_3_description: "ব্যবসায়িক ও গ্রাহকমুখী স্থানের জন্য পরিকল্পিত ও উৎপাদিত ব্র্যান্ডেড ওয়াল অ্যাপ্লিকেশন।",
+        services_group_2_meta: "বিভাগ ০২ · ৬টি সেবা",
+        services_group_2_count: "৬টি সেবা",
+        services_group_2_title: "আউটডোর, সাইনেজ ও ফিজিক্যাল ব্র্যান্ডিং",
+        services_group_2_summary: "পাবলিক স্পেস, বাণিজ্যিক পরিবেশ ও আউটডোর মিডিয়ার জন্য শুরু থেকে শেষ পর্যন্ত ফিজিক্যাল ভিজিবিলিটি সমাধান।",
+        services_group_2_service_1_title: "সাইনবোর্ড ডিজাইন, উৎপাদন ও ইনস্টলেশন",
+        services_group_2_service_1_description: "ডিজাইন, উৎপাদন ও সাইটে ইনস্টলেশনসহ সম্পূর্ণ সাইনবোর্ড ডেলিভারি।",
+        services_group_2_service_2_title: "বাস স্টপ যাত্রী ছাউনি সেবা",
+        services_group_2_service_2_description: "অনুমোদিত প্রকল্পের পরিধি অনুযায়ী বাস স্টপ পরিবেশের জন্য যাত্রী ছাউনি সেবা।",
+        services_group_2_service_3_title: "বিলবোর্ড ইনস্টলেশন ও বিজ্ঞাপন",
+        services_group_2_service_3_description: "দৃশ্যমান আউটডোর ব্র্যান্ড উপস্থিতির জন্য বিলবোর্ড ইনস্টলেশন ও বিজ্ঞাপন বাস্তবায়ন।",
+        services_group_2_service_4_title: "সড়ক ও সড়ক বিভাজক সৌন্দর্যায়ন",
+        services_group_2_service_4_description: "প্রকল্পের প্রয়োজন অনুযায়ী সড়ক ও সড়ক বিভাজকের পরিকল্পিত সৌন্দর্যায়ন কাজ।",
+        services_group_2_service_5_title: "এলইডি সাইনেজ সেবা",
+        services_group_2_service_5_description: "স্পষ্ট, টেকসই ও দৃশ্যমান ব্র্যান্ড যোগাযোগের জন্য এলইডি সাইনেজ সমাধান।",
+        services_group_2_service_6_title: "শোরুম ও এটিএম ডেকোরেশন",
+        services_group_2_service_6_description: "শোরুম ও এটিএম পরিবেশের জন্য সমন্বিত ডেকোরেশন ও ব্র্যান্ড অ্যাপ্লিকেশন।",
+        services_group_3_meta: "বিভাগ ০৩ · ২টি সেবা",
+        services_group_3_count: "২টি সেবা",
+        services_group_3_title: "ডিজিটাল মার্কেটিং ও ওয়েব",
+        services_group_3_summary: "বিশ্বাসযোগ্য ও সমন্বিত ব্র্যান্ড উপস্থিতির জন্য ডিজিটাল যোগাযোগ ও ওয়েব ডেলিভারি।",
+        services_group_3_service_1_title: "অনলাইন মার্কেটিং",
+        services_group_3_service_1_description: "অনুমোদিত ব্র্যান্ড ও ক্যাম্পেইনের লক্ষ্যের সঙ্গে সামঞ্জস্যপূর্ণ অনলাইন মার্কেটিং সহায়তা।",
+        services_group_3_service_2_title: "ওয়েবসাইট ডিজাইন ও ডেভেলপমেন্ট",
+        services_group_3_service_2_description: "ব্যবসা ও ব্যবহারকারীর প্রয়োজন অনুযায়ী পেশাদার ওয়েবসাইট ডিজাইন ও ডেভেলপমেন্ট।",
+        services_group_4_meta: "বিভাগ ০৪ · ৮টি সেবা",
+        services_group_4_count: "৮টি সেবা",
+        services_group_4_title: "ওয়েব ইনফ্রাস্ট্রাকচার ও টেকনিক্যাল ম্যানেজমেন্ট",
+        services_group_4_summary: "ওয়েব প্ল্যাটফর্মকে সংযুক্ত, রক্ষণাবেক্ষণকৃত, নিরাপদ ও সচল রাখার জন্য চলমান টেকনিক্যাল সেবা।",
+        services_group_4_service_1_title: "ডেটাবেজ ম্যানেজমেন্ট",
+        services_group_4_service_1_description: "নির্ভরযোগ্য দৈনন্দিন কার্যক্রমের জন্য ওয়েবসাইট ডেটাবেজের কাঠামোবদ্ধ ব্যবস্থাপনা।",
+        services_group_4_service_2_title: "সার্ভার, হোস্টিং ও ডোমেইন ম্যানেজমেন্ট",
+        services_group_4_service_2_description: "সার্ভার, হোস্টিং পরিবেশ ও ডোমেইনের প্রয়োজনের সমন্বিত ব্যবস্থাপনা।",
+        services_group_4_service_3_title: "ওয়েবসাইট নিরাপত্তা ও পারফরম্যান্স অপ্টিমাইজেশন",
+        services_group_4_service_3_description: "ওয়েবসাইটের নিরাপত্তা, স্থিতিশীলতা ও পারফরম্যান্সকেন্দ্রিক টেকনিক্যাল ব্যবস্থা।",
+        services_group_4_service_4_title: "পেমেন্ট গেটওয়ে ইন্টিগ্রেশন ও রক্ষণাবেক্ষণ",
+        services_group_4_service_4_description: "ওয়েবসাইট পরিবেশে পেমেন্ট গেটওয়ে ইন্টিগ্রেশন ও চলমান রক্ষণাবেক্ষণ।",
+        services_group_4_service_5_title: "এপিআই ইন্টিগ্রেশন ও থার্ড-পার্টি সেবা ব্যবস্থাপনা",
+        services_group_4_service_5_description: "অনুমোদিত এপিআই ও থার্ড-পার্টি ওয়েবসাইট সেবার ইন্টিগ্রেশন ও ব্যবস্থাপনা।",
+        services_group_4_service_6_title: "অ্যাডমিন ও কাস্টমার প্যানেল ম্যানেজমেন্ট",
+        services_group_4_service_6_description: "ওয়েবসাইটের অ্যাডমিন ও গ্রাহকমুখী প্যানেল পরিবেশের টেকনিক্যাল ব্যবস্থাপনা।",
+        services_group_4_service_7_title: "ওয়েবসাইট ব্যাকআপ, আপডেট ও নিয়মিত রক্ষণাবেক্ষণ",
+        services_group_4_service_7_description: "কার্যক্রমের ধারাবাহিকতার জন্য নিয়মিত ওয়েবসাইট ব্যাকআপ, আপডেট ও রক্ষণাবেক্ষণ।",
+        services_group_4_service_8_title: "ওয়েবসাইট টেকনিক্যাল সাপোর্ট ও ম্যানেজমেন্ট",
+        services_group_4_service_8_description: "সক্রিয় ওয়েবসাইট কার্যক্রমের জন্য চলমান টেকনিক্যাল সহায়তা ও ব্যবস্থাপনা।",
+        services_group_5_meta: "বিভাগ ০৫ · ১টি সেবা",
+        services_group_5_count: "১টি সেবা",
+        services_group_5_title: "অ্যাক্টিভেশন ও ইভেন্ট",
+        services_group_5_summary: "ব্র্যান্ডকে দর্শকের সরাসরি সংস্পর্শে আনার জন্য সমন্বিত অ্যাক্টিভেশন ও ইভেন্ট ডেলিভারি।",
+        services_group_5_service_1_title: "অ্যাক্টিভেশন ও ইভেন্ট ম্যানেজমেন্ট",
+        services_group_5_service_1_description: "অনুমোদিত ব্র্যান্ড অ্যাক্টিভেশন ও ইভেন্টের প্রয়োজন অনুযায়ী পরিকল্পনা ও ব্যবস্থাপনা সহায়তা।",
+
+        // FAQ Page
+        faq_page_title: "সাধারণ প্রশ্নোত্তর",
+        faq_page_sub: "প্রিন্টিং, আউটডোর বিজ্ঞাপন, ব্র্যান্ডিং এবং প্রোডাকশন প্রক্রিয়া সম্পর্কে স্পষ্ট উত্তর।",
+        faq_cta_title: "আপনার প্রজেক্ট নিয়ে নির্দিষ্ট প্রশ্ন আছে?",
+        faq_cta_desc: "আপনার প্রয়োজনীয়তা জানান, আমাদের টিম সঠিক প্রোডাকশন পদ্ধতি বেছে নিতে সাহায্য করবে।",
+        faq_cta_btn: "কোটেশন চান",
+
+        // Portfolio Page
+        portfolio_page_title: "আমাদের পোর্টফোলিও",
+        portfolio_page_sub: "বাস্তব প্রিন্টিং ও ব্র্যান্ডিং উৎকর্ষতার সংকলন।",
+        filter_all: "সকল প্রজেক্ট",
+        filter_branding: "ব্র্যান্ডিং",
+        filter_print: "প্রিন্ট",
+        filter_outdoor: "আউটডোর",
+        filter_events: "ইভент",
+
+        // Contact Page
+        contact_page_title: "যোগাযোগ করুন",
+        contact_page_sub: "বাংলাদেশের যেকোনো স্থানের বিজ্ঞাপন, প্রোডাকশন, ডিজিটাল বা টেকনিক্যাল প্রকল্পের জন্য আমাদের টিমের সঙ্গে যোগাযোগ করুন।",
+        contact_office_title: "কর্পোরেট প্রধান কার্যালয়",
+        contact_office_address: "ফ্ল্যাট: ৫-বি, হাউস: ১৬/এ/৩, রিং রোড, মোহাম্মদপুর, ঢাকা-১২০৭, বাংলাদেশ",
+        contact_factory_title: "উৎপাদন ফ্যাক্টরি",
+        contact_factory_address: "ঢাকা উদ্যান, মোহাম্মদপুর, ঢাকা-১২০৭, বাংলাদেশ",
+        contact_email_title: "ইমেইল করুন",
+        contact_call_title: "কল / হোয়াটসঅ্যাপ",
+        form_title: "কোটেশনের আবেদন করুন",
+        form_name: "আপনার নাম",
+        form_email: "ইমেইল ঠিকানা",
+        form_service: "প্রয়োজনীয় সেবা",
+        form_select: "একটি সেবা নির্বাচন করুন...",
+        form_details: "প্রজেক্টের বিস্তারিত",
+        form_placeholder: "আপনার প্রয়োজনীয় কাজ সম্পর্কে লিখুন...",
+        form_submit: "আবেদন পাঠান"
+    }
+};
+
+// Functions to switch and apply language
+function setLanguage(lang) {
+    localStorage.setItem('godhury_lang', lang);
+    document.documentElement.lang = lang;
+    
+    // Update active state on language switcher buttons
+    const langBtns = document.querySelectorAll('.lang-btn');
+    langBtns.forEach(btn => {
+        if (btn.dataset.lang === lang) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
+    // Translate all elements with data-i18n attribute
+    const elements = document.querySelectorAll('[data-i18n]');
+    elements.forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+            if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                el.placeholder = translations[lang][key];
+            } else {
+                el.innerHTML = translations[lang][key];
+            }
+        }
+    });
+}
+
+// Initial setup on page load
+document.addEventListener('DOMContentLoaded', () => {
+    const savedLang = localStorage.getItem('godhury_lang') || 'en';
+    setLanguage(savedLang);
+
+    // Attach click listeners to language buttons
+    const langBtns = document.querySelectorAll('.lang-btn');
+    langBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const lang = btn.dataset.lang;
+            setLanguage(lang);
+        });
+    });
+});

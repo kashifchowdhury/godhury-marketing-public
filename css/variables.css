@@ -1,0 +1,43 @@
+:root {
+  /* Colors - Corporate Brand Alignment */
+  --clr-primary: #121620; /* Dark Charcoal/Navy */
+  --clr-primary-light: #1E2330;
+  --clr-primary-dark: #0A0D14;
+  
+  --clr-accent: #00ADEF; /* Logo Light Blue / Cyan */
+  --clr-accent-hover: #008cc2;
+  
+  --clr-white: #FFFFFF; /* Paper White */
+  --clr-bg-light: #F5F7FA; /* Offset Gray */
+  
+  --clr-text-dark: #1A202C; /* Ink Black */
+  --clr-text-light: #718096; /* Slate Gray */
+  
+  /* Typography */
+  --ff-heading: 'Playfair Display', serif;
+  --ff-body: 'Inter', sans-serif;
+  
+  /* Spacing (8px scale) */
+  --space-xs: 0.5rem;   /* 8px */
+  --space-sm: 1rem;     /* 16px */
+  --space-md: 1.5rem;   /* 24px */
+  --space-lg: 4rem;     /* 64px */
+  --space-xl: 7.5rem;   /* 120px */
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease; /* 150ms */
+  --transition-normal: 0.2s ease; /* 200ms */
+  --transition-slow: 0.3s ease; /* 300ms */
+  
+  /* Border Radius (Crisp edges) */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+  
+  /* Shadows (Subtle) */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+  --shadow-hover: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+}

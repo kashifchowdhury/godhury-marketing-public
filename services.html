@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Godhury Marketing Communication Bangladesh</title>
+    <meta name="description" content="Explore Godhury Marketing Communication's 20 creative, print, outdoor, digital, web infrastructure, and event services.">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://godhury-marketing.vercel.app/services.html">
+    <meta property="og:title" content="Creative, Physical & Digital Services | Godhury">
+    <meta property="og:description" content="Explore 20 professional services across five focused capability groups.">
+    <meta property="og:image" content="https://godhury-marketing.vercel.app/assets/images/hero-bg.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Architecture -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css?v=20260831-shell4">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/services.css?v=20260831-aura1">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSJTP30T0S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+
+      gtag("config", "G-SSJTP30T0S");
+    </script>
+
+    <!-- External Libraries (Lenis, Anime.js, Three.js) -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" sizes="48x48">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body class="services-page">
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container flex justify-between items-center">
+            <a href="index.html" class="logo">
+                <img src="assets/images/godhury-logo-transparent.png" alt="Godhury Marketing Communication" class="logo-img">
+            </a>
+            
+            <nav>
+                <button type="button" class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+                <div class="overlay" id="overlay"></div>
+                <ul class="nav-links" id="navLinks">
+                    <li class="nav-menu-controls"><button type="button" id="closeMenuBtn" class="close-menu-btn" aria-label="Close Menu">&times;</button></li>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="services.html" class="active" data-i18n="nav_services">Services</a></li>
+                    <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="contact.html" class="btn" data-i18n="nav_quote">Get a Quote</a></li>
+                    <li class="lang-switch-wrapper">
+                        <div class="lang-segmented-switch">
+                            <button class="lang-btn active" data-lang="en">EN</button>
+                            <button class="lang-btn" data-lang="bn">বাংলা</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="back-btn-wrapper" style="text-align: left;">
+                <a href="javascript:history.back()" class="back-btn" data-i18n="back_btn">← Back</a>
+            </div>
+            <div class="services-hero-layout">
+                <div class="services-hero-main services-reveal">
+                    <h1 data-i18n="services_page_title">Our Services</h1>
+                </div>
+                <div class="services-hero-context services-reveal" data-reveal-delay="1">
+                    <span class="services-hero-meta" data-i18n="services_hero_meta">Services / 20 capabilities</span>
+                    <span class="services-hero-rule" aria-hidden="true"></span>
+                    <p class="services-page-intro" data-i18n="services_page_sub">Twenty specialist services, organized into five clear capability groups.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grouped Services Catalogue -->
+    <section class="bg-light services-catalogue-section">
+        <div class="container services-catalogue-shell">
+            <div class="services-catalogue-lead services-reveal">
+                <div>
+                    <h2 data-i18n="services_catalogue_title">Built to scale with your requirements.</h2>
+                </div>
+                <p data-i18n="services_catalogue_intro">Select a group to review its complete service scope. Every category can be expanded independently on desktop or mobile.</p>
+            </div>
+            <div class="service-groups" id="serviceGroups"></div>
+            <noscript>
+                <div class="services-noscript" aria-label="Complete service catalogue">
+                    <section>
+                        <h2>Creative &amp; Print</h2>
+                        <h3>Creative Design Services</h3><p>Creative design support for professional brand, campaign, and communication requirements.</p>
+                        <h3>Digital Printing Services</h3><p>Digital print production for approved marketing and corporate communication materials.</p>
+                        <h3>Wall Branding</h3><p>Branded wall applications planned and produced for business and customer-facing spaces.</p>
+                    </section>
+                    <section>
+                        <h2>Outdoor, Signage &amp; Physical Branding</h2>
+                        <h3>Signboard Design, Manufacturing &amp; Installation</h3><p>Complete signboard delivery covering design, manufacturing, and on-site installation.</p>
+                        <h3>Bus Stop Passenger Shade Services</h3><p>Passenger shade services for bus stop environments, delivered to the approved project scope.</p>
+                        <h3>Billboard Installation &amp; Advertising</h3><p>Billboard installation and advertising execution for prominent outdoor brand visibility.</p>
+                        <h3>Road &amp; Road Median Beautification</h3><p>Planned beautification work for roads and road medians in line with project requirements.</p>
+                        <h3>LED Signage Services</h3><p>LED signage solutions for clear, durable, and visible brand communication.</p>
+                        <h3>Showroom &amp; ATM Decoration</h3><p>Coordinated decoration and brand application for showroom and ATM environments.</p>
+                    </section>
+                    <section>
+                        <h2>Digital Marketing &amp; Web</h2>
+                        <h3>Online Marketing</h3><p>Online marketing support aligned with approved brand and campaign objectives.</p>
+                        <h3>Website Design &amp; Development</h3><p>Professional website design and development shaped around business and user requirements.</p>
+                    </section>
+                    <section>
+                        <h2>Web Infrastructure &amp; Technical Management</h2>
+                        <h3>Database Management</h3><p>Structured management of website databases to support reliable day-to-day operation.</p>
+                        <h3>Server, Hosting &amp; Domain Management</h3><p>Coordinated management of servers, hosting environments, and domain requirements.</p>
+                        <h3>Website Security &amp; Performance Optimization</h3><p>Technical measures focused on website security, stability, and performance.</p>
+                        <h3>Payment Gateway Integration &amp; Maintenance</h3><p>Payment gateway integration and ongoing maintenance within the website environment.</p>
+                        <h3>API Integration &amp; Third-Party Services Management</h3><p>Integration and management of approved APIs and third-party website services.</p>
+                        <h3>Admin &amp; Customer Panel Management</h3><p>Technical management of website admin and customer-facing panel environments.</p>
+                        <h3>Website Backup, Updates &amp; Regular Maintenance</h3><p>Routine website backups, updates, and maintenance to support continuity.</p>
+                        <h3>Website Technical Support &amp; Management</h3><p>Ongoing technical support and management for active website operations.</p>
+                    </section>
+                    <section>
+                        <h2>Activation &amp; Events</h2>
+                        <h3>Activation &amp; Event Management</h3><p>Planning and management support for approved brand activation and event requirements.</p>
+                    </section>
+                </div>
+            </noscript>
+            <div class="services-catalogue-cta services-reveal">
+                <div>
+                    <span data-i18n="services_cta_label">Ready to discuss a requirement?</span>
+                    <h2 data-i18n="services_cta_title">Bring us the brief. We will map the right capability.</h2>
+                </div>
+                <a href="contact.html" class="btn btn-primary" data-i18n="services_cta_button">Request a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer bg-light" style="padding: var(--space-lg) 0 var(--space-sm);">
+        <div class="container grid grid-4" style="margin-bottom: var(--space-lg); gap: var(--space-xl)">
+            <div style="grid-column: span 2;">
+                <a href="index.html" class="logo" style="display: block; margin-bottom: var(--space-sm);">
+                    <img src="assets/images/godhury-logo-footer.png" alt="Godhury Marketing Communication" class="logo-img">
+                </a>
+                <p style="color: var(--clr-text); max-width: 300px;">Godhury Marketing Communication is your trusted partner for premium offline marketing, branding, and production excellence in Bangladesh.</p>
+            </div>
+            
+            <div>
+                <h4 style="color: var(--clr-primary-dark); margin-bottom: var(--space-md);">Quick Links</h4>
+                <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--clr-text);">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 style="color: var(--clr-primary-dark); margin-bottom: var(--space-md);" data-i18n="footer_contact">Contact Us</h4>
+                <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--clr-text);">
+                    <li><strong>Godhury Marketing</strong></li>
+                    <li data-i18n="footer_address">Flat: 5-B, House: 16/A/3, Ring Road<br>Mohammadpur, Dhaka-1207, Bangladesh</li>
+                    <li><a href="mailto:sales@godhurymarketing.com">sales@godhurymarketing.com</a></li>
+                    <li><a href="tel:+8801715053503">+880 1715 053503</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: var(--space-sm); display: flex; justify-content: space-between; color: var(--clr-text); font-size: 0.9rem;">
+            <p>&copy; 2026 Godhury Marketing Communication. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js?v=20260831-shell2"></script>
+    <script src="js/services-data.js"></script>
+    <script src="js/services.js?v=20260831-aura1"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/i18n.js"></script>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/8801715053503" target="_blank" class="whatsapp-float" aria-label="Chat with us on WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.05 1.5c-7.98 0-14.45 6.47-14.45 14.45 0 2.54.66 4.93 1.83 7.02L2 30.5l7.73-1.42c2.04 1.08 4.35 1.68 6.77 1.68 7.98 0 14.45-6.47 14.45-14.45S24.03 1.5 16.05 1.5zM24.2 21.9c-.35 1.01-1.92 1.83-2.65 1.93-.72.09-1.57.25-4.8-1.08-3.9-1.61-6.43-5.59-6.62-5.85-.2-.25-1.58-2.11-1.58-4.02 0-1.91 1-2.86 1.35-3.26.35-.4.76-.5 1.01-.5.25 0 .5.01.72.01.23.01.53-.09.83.63.31.75 1.06 2.59 1.16 2.8.09.2.15.43.03.68-.13.25-.19.4-.38.63-.19.23-.4.5-.57.68-.19.19-.39.39-.16.78.23.4 1.02 1.68 2.18 2.71 1.5 1.33 2.75 1.74 3.15 1.93.4.19.63.16.86-.1.23-.25.99-1.16 1.25-1.56.26-.4.53-.33.89-.2.36.13 2.3.1.2.5 1.26.7 1.48 1.02.83 1.15.13.43.34 1.41.34 2.42z" fill="#fff"/>
+        </svg>
+    </a>
+</body>
+</html>

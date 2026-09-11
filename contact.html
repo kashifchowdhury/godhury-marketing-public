@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Godhury Marketing Communication Bangladesh</title>
+    <meta name="description" content="Contact Godhury Marketing Communication for advertising, production, digital, web, and technical projects anywhere in Bangladesh. Based in Dhaka, serving clients nationwide.">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://godhury-marketing.vercel.app/contact.html">
+    <meta property="og:title" content="Contact Godhury Marketing Communication Bangladesh">
+    <meta property="og:description" content="Based in Dhaka, Godhury serves clients nationwide across Bangladesh for advertising, production, digital, web, and technical projects.">
+    <meta property="og:image" content="https://godhury-marketing.vercel.app/assets/images/hero-bg.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Architecture -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css?v=20260831-shell4">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/contact.css?v=20260831-light1">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSJTP30T0S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+
+      gtag("config", "G-SSJTP30T0S");
+    </script>
+
+    <!-- External Libraries (Lenis, Anime.js, Three.js) -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" sizes="48x48">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body class="contact-page">
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container flex justify-between items-center">
+            <a href="index.html" class="logo">
+                <img src="assets/images/godhury-logo-transparent.png" alt="Godhury Marketing Communication" class="logo-img">
+            </a>
+            
+            <nav>
+                <button type="button" class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+                <div class="overlay" id="overlay"></div>
+                <ul class="nav-links" id="navLinks">
+                    <li class="nav-menu-controls"><button type="button" id="closeMenuBtn" class="close-menu-btn" aria-label="Close Menu">&times;</button></li>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                    <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="contact.html" class="active" data-i18n="nav_quote">Get a Quote</a></li>
+                    <li class="lang-switch-wrapper">
+                        <div class="lang-segmented-switch">
+                            <button class="lang-btn active" data-lang="en">EN</button>
+                            <button class="lang-btn" data-lang="bn">বাংলা</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="back-btn-wrapper">
+                <a href="javascript:history.back()" class="back-btn" data-i18n="back_btn">← Back</a>
+            </div>
+            <div class="contact-hero-layout">
+                <div class="contact-hero-main contact-reveal">
+                    <span class="contact-hero-meta" data-i18n="contact_page_title">Contact Us</span>
+                    <h1>Let’s Talk About Your Next Project</h1>
+                    <p class="contact-hero-intro" data-i18n="contact_page_sub">Contact our team for advertising, production, digital, or technical projects anywhere in Bangladesh.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Enquiry -->
+    <section class="contact-enquiry-section">
+        <div class="container">
+            <div class="contact-enquiry-grid">
+                <aside class="contact-direct contact-reveal" aria-labelledby="directContactTitle">
+                    <span class="contact-eyebrow">Fast-Response Option</span>
+                    <h2 id="directContactTitle">Direct WhatsApp Hotline</h2>
+                    <p>For urgent printing, event stall fabrication, or billboard campaigns, WhatsApp is your fastest route.</p>
+
+                    <dl class="contact-direct-list">
+                        <div>
+                            <dt>01</dt>
+                            <dd>Screened &amp; Quality Tested Production</dd>
+                        </div>
+                        <div>
+                            <dt>02</dt>
+                            <dd>Send date, quantity and project scope</dd>
+                        </div>
+                    </dl>
+
+                    <a href="https://wa.me/8801715053503" target="_blank" rel="noopener noreferrer" class="whatsapp-fast-btn">
+                        <svg viewBox="0 0 32 32" aria-hidden="true">
+                            <path d="M16.05 1.5c-7.98 0-14.45 6.47-14.45 14.45 0 2.54.66 4.93 1.83 7.02L2 30.5l7.73-1.42c2.04 1.08 4.35 1.68 6.77 1.68 7.98 0 14.45-6.47 14.45-14.45S24.03 1.5 16.05 1.5zM24.2 21.9c-.35 1.01-1.92 1.83-2.65 1.93-.72.09-1.57.25-4.8-1.08-3.9-1.61-6.43-5.59-6.62-5.85-.2-.25-1.58-2.11-1.58-4.02 0-1.91 1-2.86 1.35-3.26.35-.4.76-.5 1.01-.5.25 0 .5.01.72.01.23.01.53-.09.83.63.31.75 1.06 2.59 1.16 2.8.09.2.15.43.03.68-.13.25-.19.4-.38.63-.19.23-.4.5-.57.68-.19.19-.39.39-.16.78.23.4 1.02 1.68 2.18 2.71 1.5 1.33 2.75 1.74 3.15 1.93.4.19.63.16.86-.1.23-.25.99-1.16 1.25-1.56.26-.4.53-.33.89-.2.36.13 2.3.1.2.5 1.26.7 1.48 1.02.83 1.15.13.43.34 1.41.34 2.42z"/>
+                        </svg>
+                        <span>WhatsApp +880 1715 053503</span>
+                    </a>
+                </aside>
+
+                <form class="enquiry-form-card contact-reveal" id="contactForm" data-reveal-delay="1">
+                    <header class="contact-form-header">
+                        <span class="contact-eyebrow">Project Enquiry</span>
+                        <h2 data-i18n="form_title">Request a Quote</h2>
+                    </header>
+                    
+                    <div class="form-grid-2">
+                        <!-- Honeypot field for anti-spam -->
+                        <input type="text" id="website_url" name="website_url" tabindex="-1" autocomplete="off" style="opacity: 0; position: absolute; left: -9999px;">
+                        
+                        <label class="form-label">
+                            <span data-i18n="form_name">Full Name</span>
+                            <input type="text" id="name" name="name" class="form-input" required placeholder="John Doe">
+                        </label>
+                        
+                        <label class="form-label">
+                            <span>Company / Organization</span>
+                            <input type="text" id="company" name="company" class="form-input" placeholder="Your Company Name">
+                        </label>
+                        
+                        <label class="form-label">
+                            <span>Phone Number</span>
+                            <input type="tel" id="phone" name="phone" class="form-input" required placeholder="+880 1715 053503">
+                        </label>
+
+                        <label class="form-label">
+                            <span data-i18n="form_email">Email Address</span>
+                            <input type="email" id="email" name="email" class="form-input" required placeholder="sales@godhurymarketing.com">
+                        </label>
+
+                        <label class="form-label">
+                            <span data-i18n="form_service">Service Needed</span>
+                            <select id="service" name="service" class="form-select" required>
+                                <option value="" data-i18n="form_select">Select a service...</option>
+                                <option value="Design & Branding">Design & Corporate Branding</option>
+                                <option value="Printing Solutions">Offset & Digital Printing</option>
+                                <option value="Outdoor Advertising">Outdoor Billboards & Signage</option>
+                                <option value="Event Management">Event Management & Activations</option>
+                                <option value="Stall Fabrication">Exhibition Stall Fabrication</option>
+                                <option value="Custom Packaging">Custom Packaging & Merchandising</option>
+                            </select>
+                        </label>
+
+                        <label class="form-label">
+                            <span>Location / Target Area</span>
+                            <input type="text" id="location" name="location" class="form-input" placeholder="e.g. Ring Road, Dhaka">
+                        </label>
+                    </div>
+
+                    <label class="form-label form-label--full">
+                        <span data-i18n="form_details">Project Details & Quantity</span>
+                        <textarea id="message" name="message" class="form-textarea" rows="4" required placeholder="Date, job scope, quantity required, and specs..."></textarea>
+                    </label>
+
+                    <div class="contact-form-actions">
+                        <p>We'll review your enquiry and contact you via email or WhatsApp.</p>
+                        <button type="submit" class="submit-enquiry-btn">
+                            <span data-i18n="form_submit">Submit Enquiry</span>
+                            <span aria-hidden="true">&rarr;</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Official Corporate Locations Section -->
+    <section class="contact-locations-section" aria-labelledby="contactLocationsTitle">
+        <div class="container">
+            <div class="contact-section-heading contact-reveal">
+                <div>
+                    <span class="contact-eyebrow">Locations</span>
+                    <h2 id="contactLocationsTitle">Our Official Facilities</h2>
+                </div>
+                <p>Based in Dhaka, delivering projects nationwide across Bangladesh.</p>
+            </div>
+
+            <div class="contact-location-list">
+                <article class="location-card contact-reveal">
+                    <span class="contact-location-index">01</span>
+                    <div>
+                        <h3 data-i18n="contact_office_title">Corporate Head Office</h3>
+                        <p data-i18n="contact_office_address">Flat: 5-B, House: 16/A/3, Ring Road<br>Mohammadpur, Dhaka-1207, Bangladesh</p>
+                        <a href="tel:+8801715053503">Mobile: +8801715053503</a>
+                    </div>
+                </article>
+
+                <article class="location-card contact-reveal" data-reveal-delay="1">
+                    <span class="contact-location-index">02</span>
+                    <div>
+                        <h3 data-i18n="contact_factory_title">Production Factory</h3>
+                        <p data-i18n="contact_factory_address">Dhaka Uddan, Mohammadpur<br>Dhaka-1207, Bangladesh</p>
+                        <a href="mailto:sales@godhurymarketing.com">Email: sales@godhurymarketing.com</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map -->
+    <section class="contact-map-section">
+        <div class="container">
+            <div class="contact-map-frame contact-reveal">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5385637213876!2d90.3582455!3d23.7638421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0a373b52d9b%3A0xb35a0f670f5e8f49!2sRing%20Rd%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1700000000000!5m2!1sen!2sbd" 
+                    width="100%" 
+                    height="100%" 
+                    title="Map showing Ring Road, Dhaka"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer bg-light" style="padding: var(--space-lg) 0 var(--space-sm); border-top: 1px solid #e2e8f0;">
+        <div class="container grid grid-4" style="margin-bottom: var(--space-lg); gap: var(--space-xl)">
+            <div style="grid-column: span 2;">
+                <a href="index.html" class="logo" style="display: block; margin-bottom: var(--space-sm);">
+                    <img src="assets/images/godhury-logo-footer.png" alt="Godhury Marketing Communication" class="logo-img">
+                </a>
+                <p style="color: var(--clr-text); max-width: 300px;">Godhury Marketing Communication is your trusted partner for premium offline marketing, branding, and production excellence in Bangladesh.</p>
+            </div>
+            
+            <div>
+                <h4 style="color: var(--clr-primary-dark); margin-bottom: var(--space-md);">Quick Links</h4>
+                <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--clr-text);">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 style="color: var(--clr-primary-dark); margin-bottom: var(--space-md);" data-i18n="footer_contact">Contact Us</h4>
+                <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--clr-text);">
+                    <li><strong>Godhury Marketing</strong></li>
+                    <li data-i18n="footer_address">Flat: 5-B, House: 16/A/3, Ring Road<br>Mohammadpur, Dhaka-1207, Bangladesh</li>
+                    <li><a href="mailto:sales@godhurymarketing.com">sales@godhurymarketing.com</a></li>
+                    <li><a href="tel:+8801715053503">+880 1715 053503</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container text-center" style="border-top: 1px solid #E2E8F0; padding-top: var(--space-md);">
+            <p style="color: var(--clr-text-light); font-size: 0.85rem;" data-i18n="footer_rights">© 2026 Godhury Marketing Communication. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js?v=20260831-shell2"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/i18n.js?v=20260902-contact1"></script>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/8801715053503" target="_blank" class="whatsapp-float" aria-label="Chat with us on WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor" aria-hidden="true">
+            <path d="M16.05 1.5c-7.98 0-14.45 6.47-14.45 14.45 0 2.54.66 4.93 1.83 7.02L2 30.5l7.73-1.42c2.04 1.08 4.35 1.68 6.77 1.68 7.98 0 14.45-6.47 14.45-14.45S24.03 1.5 16.05 1.5zM24.2 21.9c-.35 1.01-1.92 1.83-2.65 1.93-.72.09-1.57.25-4.8-1.08-3.9-1.61-6.43-5.59-6.62-5.85-.2-.25-1.58-2.11-1.58-4.02 0-1.91 1-2.86 1.35-3.26.35-.4.76-.5 1.01-.5.25 0 .5.01.72.01.23.01.53-.09.83.63.31.75 1.06 2.59 1.16 2.8.09.2.15.43.03.68-.13.25-.19.4-.38.63-.19.23-.4.5-.57.68-.19.19-.39.39-.16.78.23.4 1.02 1.68 2.18 2.71 1.5 1.33 2.75 1.74 3.15 1.93.4.19.63.16.86-.1.23-.25.99-1.16 1.25-1.56.26-.4.53-.33.89-.2.36.13 2.3.1.2.5 1.26.7 1.48 1.02.83 1.15.13.43.34 1.41.34 2.42z" fill="#fff"/>
+        </svg>
+    </a>
+
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+        // Initialize Supabase with placeholders (Replace these with your actual keys from the setup guide)
+        const SUPABASE_URL = 'https://mvnyhjkarbjefnwenthe.supabase.co';
+        const SUPABASE_ANON_KEY = 'sb_publishable_7b9qgQswzTAqUKbVTbQwqg_DcMENBtv';
+        let supabaseClient;
+        try {
+            if (SUPABASE_URL !== 'YOUR_SUPABASE_URL_HERE') {
+                supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+            }
+        } catch (e) {
+            console.error('Supabase initialization failed:', e);
+        }
+
+        const contactForm = document.getElementById('contactForm');
+        
+        if (contactForm) {
+            contactForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const formData = new FormData(contactForm);
+                
+                // Honeypot check
+                if (formData.get('website_url')) {
+                    console.log('Bot detected, silently discarding.');
+                    contactForm.innerHTML = '<div class="form-success"><h3>Thank You!</h3><p>Your quote request has been received. Our team will contact you shortly.</p></div>';
+                    return;
+                }
+
+                if (!supabaseClient) {
+                    alert('Supabase is not configured yet. Please configure the API keys in contact.html.');
+                    return;
+                }
+
+                const submitBtn = contactForm.querySelector('button[type="submit"]');
+                const originalBtnText = submitBtn.innerText;
+                submitBtn.innerText = 'Submitting...';
+                submitBtn.disabled = true;
+
+                const data = {
+                    name: formData.get('name'),
+                    company: formData.get('company'),
+                    phone: formData.get('phone'),
+                    email: formData.get('email'),
+                    service: formData.get('service'),
+                    location: formData.get('location'),
+                    message: formData.get('message')
+                };
+
+                const { error } = await supabaseClient
+                    .from('quote_requests')
+                    .insert([data]);
+
+                if (error) {
+                    console.error('Error inserting data:', error);
+                    alert('There was an error submitting your request. Please try again.');
+                    submitBtn.innerText = originalBtnText;
+                    submitBtn.disabled = false;
+                } else {
+                    contactForm.innerHTML = '<div class="form-success"><h3>Thank You!</h3><p>Your quote request has been received. Our team will contact you shortly.</p></div>';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
