@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/components.css?v=20260831-shell4">
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/about.css?v=20260902-mobile1">
+    <link rel="stylesheet" href="css/about.css?v=20260914-dcci2">
     
     <style>
         .page-header {
@@ -261,6 +261,37 @@
         </div>
     </section>
 
+    <!-- Credentials & Memberships -->
+    <section class="about-credentials-section" aria-labelledby="aboutCredentialsTitle">
+        <div class="container about-credentials-layout">
+            <div class="about-credentials-heading">
+                <div class="badge" data-i18n="about_credentials_badge">Company Credentials</div>
+                <h2 id="aboutCredentialsTitle" data-i18n="about_credentials_title">Credentials &amp; Memberships</h2>
+            </div>
+            <div class="about-credentials-detail">
+                <h3 data-i18n="about_credentials_organization">Dhaka Chamber of Commerce &amp; Industry (DCCI)</h3>
+                <p class="about-credentials-type" data-i18n="about_credentials_type">General Member</p>
+                <p data-i18n="about_credentials_description">Godhury Marketing Communication is a General Member of the Dhaka Chamber of Commerce &amp; Industry (DCCI), reflecting its established participation in Bangladesh's business community.</p>
+                <p class="about-credentials-validity"><span data-i18n="about_credentials_valid_label">Valid through:</span> <strong data-i18n="about_credentials_valid_date">31 December 2026</strong></p>
+                <button type="button" class="about-certificate-trigger" id="openDcciCertificate" aria-haspopup="dialog" aria-controls="dcciCertificateDialog">
+                    <img src="assets/images/credentials/dcci-membership-certificate-2026.jpg" alt="Godhury Marketing Communication DCCI General Membership Certificate 2026" width="2339" height="1654" loading="lazy" decoding="async">
+                    <span data-i18n="about_certificate_open">View membership certificate</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <dialog class="about-certificate-dialog" id="dcciCertificateDialog" aria-labelledby="dcciCertificateDialogTitle">
+        <div class="about-certificate-dialog-header">
+            <h2 id="dcciCertificateDialogTitle" data-i18n="about_certificate_dialog_title">DCCI Membership Certificate</h2>
+            <button type="button" class="about-certificate-close" id="closeDcciCertificate">
+                <span aria-hidden="true">&times;</span>
+                <span class="about-certificate-sr-only" data-i18n="about_certificate_close">Close certificate</span>
+            </button>
+        </div>
+        <img src="assets/images/credentials/dcci-membership-certificate-2026.jpg" alt="Godhury Marketing Communication DCCI General Membership Certificate 2026" width="2339" height="1654" decoding="async">
+    </dialog>
+
     <!-- Why Godhury -->
     <section class="about-strengths-section" aria-labelledby="aboutStrengthsTitle">
         <div class="container">
@@ -352,8 +383,8 @@
     <!-- Scripts -->
     <script src="js/main.js?v=20260831-shell2"></script>
     <script src="js/animations.js?v=20260830-company1"></script>
-    <script src="js/i18n.js?v=20260902-about4"></script>
-    <script src="js/about.js?v=20260831-about4"></script>
+    <script src="js/i18n.js?v=20260914-dcci2"></script>
+    <script src="js/about.js?v=20260914-dcci2"></script>
 
     <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/8801715053503" target="_blank" class="whatsapp-float" aria-label="Chat with us on WhatsApp">

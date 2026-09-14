@@ -147,9 +147,29 @@ document.addEventListener('DOMContentLoaded', () => {
         tiltItems.forEach(resetTilt);
     }
 
+    function initializeCertificateDialog() {
+        const trigger = document.getElementById('openDcciCertificate');
+        const dialog = document.getElementById('dcciCertificateDialog');
+        const closeButton = document.getElementById('closeDcciCertificate');
+        if (!trigger || !dialog || !closeButton) return;
+
+        trigger.addEventListener('click', () => dialog.showModal());
+        closeButton.addEventListener('click', () => dialog.close());
+        dialog.addEventListener('click', event => {
+            if (event.target !== dialog) return;
+            const bounds = dialog.getBoundingClientRect();
+            if (event.clientX < bounds.left || event.clientX > bounds.right ||
+                event.clientY < bounds.top || event.clientY > bounds.bottom) {
+                dialog.close();
+            }
+        });
+        dialog.addEventListener('close', () => trigger.focus({ preventScroll: true }));
+    }
+
     initializeReveals();
     initializeTilt();
     initializeJourney();
+    initializeCertificateDialog();
 
     if (typeof reducedMotion.addEventListener === 'function') {
         reducedMotion.addEventListener('change', resetMotion);
